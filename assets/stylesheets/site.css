@@ -1,0 +1,47 @@
+/* ROOT OVERRIDER */
+
+* {
+    font-family: 'Open Sans', serif;
+    color: #333447;
+}
+
+body {
+    font-family: 'Open Sans', serif;
+}
+
+/* TYPOGRAPHY OVERRIDER */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Open Sans', serif;
+}
+
+/* LINK OVERRIDER */
+a {
+    color: green !important;
+    text-decoration-style: wavy;
+}
+
+/* POSITIONING HELPER */
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-justify {
+    text-align: justify;
+}
